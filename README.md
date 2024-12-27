@@ -1,7 +1,7 @@
 # Missing Dates Finder
 
 ## Overview
-This project is a Python script that identifies missing dates in a user-defined date range based on filenames in a specified folder. The filenames must follow a specific naming convention containing dates, such as:
+This project is a Python script that identifies missing dates in a user-defined date range based on filenames in a specified folder. The script processes filenames that follow a specific naming convention containing dates, such as:
 
 ```
 unformatted-product-ad-campaigns-report-YYYY-MM-DD
@@ -13,11 +13,12 @@ The script compares the extracted dates with the full range of dates to identify
 - Extracts dates from filenames using regex.
 - Finds missing dates in a specified date range.
 - Displays statistics on the total number of dates, files present, and missing dates.
-- Provides a detailed list of missing dates, if any.
+- Generates a detailed list of missing dates for easy validation.
 
 ## Prerequisites
 - Python 3.7+
 - Basic knowledge of Python, Regular Expressions and file systems.
+- Knowledge of running Python scripts in a terminal or IDE
 
 ## Setup and Usage
 ### 1. Clone the Repository
@@ -31,7 +32,7 @@ This script does not require any external Python libraries. Ensure Python is ins
 
 ### 3. Run the Script
 ```bash
-python missing_dates_finder.py
+python missing_dates_finder.py # Ensure the folder path provided has read permissions.
 ```
 
 ### 4. Provide User Inputs
@@ -43,7 +44,7 @@ python missing_dates_finder.py
 ```
 Enter start date (YYYY-MM-DD): 2024-12-01
 Enter end date (YYYY-MM-DD): 2024-12-31
-Please enter the folder path where CSV files are downloaded: /path/to/your/folder
+Provide the folder path where CSV files are stored: /path/to/your/folder
 ```
 
 ### Example Output
@@ -70,7 +71,7 @@ Missing dates:
 ## How It Works
 1. **Date Extraction:** Extracts dates from filenames matching the regex pattern `unformatted-product-ad-campaigns-report-YYYY-MM-DD`.
 2. **Date Comparison:** Compares the extracted dates with the full date range provided by the user.
-3. **Reporting:** Displays the total number of dates, files present, and missing dates, along with a list of missing dates.
+3. **Statistics Generation:** Displays the total number of dates, files present, and missing dates, along with a list of missing dates.
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -80,15 +81,14 @@ Contributions are welcome! To contribute:
 4. Open a pull request.
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
 - **[Sagar Gupta]**
-- Email: [sagargupta1032@gmail.com]
 - GitHub: [https://github.com/sagarg1032]
 
 ## Feedback
-If you encounter any issues or have suggestions for improvements, feel free to open an issue or contact the author.
+Feel free to raise an issue on GitHub if you encounter any bugs or have feature requests.
 
 ---
 
