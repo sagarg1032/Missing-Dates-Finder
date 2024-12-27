@@ -73,7 +73,7 @@ Missing dates:
 2. **Date Comparison:** Compares the extracted dates with the full date range provided by the user.
 3. **Statistics Generation:** Displays the total number of dates, files present, and missing dates, along with a list of missing dates.
 
-## Contributing
+## Contributions
 Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature/bug fix.
