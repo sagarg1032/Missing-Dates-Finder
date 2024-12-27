@@ -32,8 +32,8 @@ end_date_str = input("Enter end date (YYYY-MM-DD): ")  # Get the end date from t
 start_date = datetime.strptime(start_date_str, "%Y-%m-%d")  # Parse start date string
 end_date = datetime.strptime(end_date_str, "%Y-%m-%d")  # Parse end date string
 
-# Ask the user to input the folder path where CSV files are downloaded
-folder_path_input = input("Please enter the folder path where CSV files are downloaded: ")
+# Ask the user to input the folder path where CSV files are stored
+folder_path_input = input("Provide the folder path where CSV files are stored: ")
 
 # Remove any double quotes from the input folder path
 folder_path = folder_path_input.strip().replace('"', '')  # Clean up the folder path input
