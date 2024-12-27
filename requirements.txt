@@ -1,0 +1,7 @@
+# Requirements for Missing Dates Finder
+
+# Python Standard Library is sufficient for this project.
+# No external libraries are required.
+
+# If you want to specify Python version as a reference:
+# Python 3.7 or higher is recommended.
