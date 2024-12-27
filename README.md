@@ -84,8 +84,8 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
-- **[Sagar Gupta]**
-- GitHub: [https://github.com/sagarg1032]
+- **Sagar Gupta**
+- GitHub: [sagarg1032](https://github.com/sagarg1032) - Explore more projects and contributions.
 
 ## Feedback
 Feel free to raise an issue on GitHub if you encounter any bugs or have feature requests.
